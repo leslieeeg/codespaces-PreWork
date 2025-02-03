@@ -3,7 +3,8 @@ def beg():
     name = input("What is your name?: ")
     age = input("Hi "+ name + ", how old are you? ")
     wmessage = print("Welcome "+ name +"!!! Way to be "+ age + "! How may I help you today?")
-
+    numbers = []
+    cartmoney = sum(numbers)
 
 poptions = {
     "1" : "Order a young adult romance novel",
@@ -45,7 +46,14 @@ def yaromance(poption):
     for key, value in roptions.items():
         print(f"{key}. {value}")
     yachoice = input("Enter your choice: ")
-    
+    if yachoice == "1":
+        numbers + 15.99
+    elif yachoice == "2":
+        numbers + 16.99
+    elif yachoice == "3":
+        numbers + 14
+    elif yachoice == "4":
+        numbers + 17
 
 
 
@@ -60,6 +68,7 @@ def yascifi(poption):
     for key, value in sfoptions.items():
         print(f"{key}. {value}")
     sf_choice = input("Enter your choice: ")
+
 
 def yamm():
     mmoptions = {
